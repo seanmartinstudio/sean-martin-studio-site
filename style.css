@@ -1,0 +1,71 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-image: url('/images/pink-jesus-background.webp'); 
+    background-size: cover;      
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -1.2px;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -1.2px;
+}
+
+p {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    line-height: clamp(2.3rem, 3.5vw, 3.5rem);
+    letter-spacing: -1.2px;
+}
+
+footer p a {
+    color: black;           /* or any color you want */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #ff69b4;
+}
+
+.body {
+    max-width: 120ch;
+}
+
+main {
+    display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+     line-height: 1.5rem;
+}
+
+footer {
+    line-height: 3.5rem;
+}
+
+
